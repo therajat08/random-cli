@@ -1,0 +1,27 @@
+{
+  "name": "random-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therajat08/random-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therajat08/random-cli/issues"
+  },
+  "homepage": "https://github.com/therajat08/random-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0",
+    "conf": "^10.1.2"
+  },
+  "bin": {
+    "rand-cli": "./index.js"
+  }
+}
